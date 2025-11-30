@@ -156,3 +156,80 @@ nav a:hover {
     font-size: 20px;
     font-weight: bold;
 }
+/* CONTACT SECTION */
+.contact-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+.contact-info {
+    width: 280px;
+    text-align: left;
+}
+
+.contact-info h3 {
+    font-size: 22px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    margin: 6px 0;
+    color: #444;
+    font-size: 14.5px;
+}
+
+.contact-form {
+    background: #fff;
+    padding: 25px;
+    width: 330px;
+    border-radius: 14px;
+    box-shadow: 0 3px 14px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    outline: none;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #007bff;
+}
+
+.submit-btn {
+    background: #007bff;
+    color: #fff;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.submit-btn:hover {
+    background: #005fcc;
+    transform: translateY(-2px);
+}
+
+/* FOOTER */
+.footer {
+    background: #007bff;
+    padding: 18px;
+    margin-top: 40px;
+    text-align: center;
+    color: white;
+    font-size: 14.5px;
+}
